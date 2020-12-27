@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">DroidHub</string>
+    <string name="droidhub">DroidHub</string>
+    <string name="hint_name">Name</string>
+    <string name="sign_up_tv">Sign Up</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="sign_up_btn_txt">Sign Up</string>
+    <string name="or_login_tv">Or Login</string>
+    <string name="login">Login</string>
+    <string name="login_btn_txt">Login</string>
+    <string name="or_sign_up">Or Sign Up</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="your_files">Your Files</string>
+    <string name="file_title">File Title</string>
+    <string name="add_a_file">Add a File</string>
+    <string name="file_name_goes_here">File name goes here</string>
+    <string name="choose_file">Choose file</string>
+</resources>

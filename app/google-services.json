@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "603297699041",
+    "project_id": "droidhub-dd6e1",
+    "storage_bucket": "droidhub-dd6e1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:603297699041:android:041e7265832f05b32f13a0",
+        "android_client_info": {
+          "package_name": "com.olgatech.droidcampfinals"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "603297699041-mffmt5dbu43gt343grdmlooidhu8quo2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAyafuRjaTnd9cU_Lf0dI9a2HHKP4U2Deg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "603297699041-mffmt5dbu43gt343grdmlooidhu8quo2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

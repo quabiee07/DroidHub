@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FileUploadFragment">
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/add_a_file"
+        android:fontFamily="@font/rubik_medium"
+        android:textColor="#5A5A5A"
+        android:textSize="28sp"
+        android:layout_margin="20dp"/>
+
+      <com.google.android.material.textfield.TextInputLayout
+          android:id="@+id/file_upload_layout"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginStart="20dp"
+          android:layout_marginEnd="20dp"
+          android:layout_marginTop="15dp"
+          style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox.Dense"
+          >
+
+          <com.google.android.material.textfield.TextInputEditText
+              android:id="@+id/file_upload_editText"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:hint="@string/file_name_goes_here"
+              android:inputType="text"
+              android:fontFamily="@font/rubik_light"/>
+
+      </com.google.android.material.textfield.TextInputLayout>
+
+      <com.google.android.material.button.MaterialButton
+          android:id="@+id/choose_file_btn"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginStart="20dp"
+          android:layout_marginTop="20dp"
+          android:layout_marginEnd="20dp"
+          android:text="@string/choose_file"
+          android:textSize="18sp"
+          android:fontFamily="@font/rubik_medium"
+          android:textAllCaps="false"
+          android:textColor="#ffffff"
+          android:background="#358263"/>
+
+
+      <com.google.android.material.progressindicator.CircularProgressIndicator
+          android:id="@+id/progress_bar"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_gravity="center_horizontal"
+          android:layout_marginTop="50dp"/>
+
+      <com.google.android.material.button.MaterialButton
+          android:id="@+id/upload_file_btn"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginStart="20dp"
+          android:layout_marginTop="300dp"
+          android:layout_marginEnd="20dp"
+          android:text="Upload File"
+          android:textSize="18sp"
+          android:fontFamily="@font/rubik_medium"
+          android:textAllCaps="false"
+          android:textColor="#ffffff"
+          android:background="#358263"/>
+
+
+   </LinearLayout>
+</FrameLayout>
